@@ -1,0 +1,30 @@
+{
+  "name": "cec-unit-tests",
+  "version": "1.0.0",
+  "description": "Unit Tests for CEC Modular Common Methods",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --require @babel/register --require @babel/polyfill **/test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sco-achang/cec-unit-tests.git"
+  },
+  "author": "Albert Chang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sco-achang/cec-unit-tests/issues"
+  },
+  "homepage": "https://github.com/sco-achang/cec-unit-tests#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/register": "^7.4.4",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
